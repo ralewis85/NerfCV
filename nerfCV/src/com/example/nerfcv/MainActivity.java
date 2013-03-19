@@ -20,4 +20,11 @@ public class MainActivity extends Activity {
         return true;
     }
     
+    @Override
+    public void onPause() {
+        // Inflate the menu; this adds items to the action bar if it is present.
+        return;
+    }
+    
+    
 }
