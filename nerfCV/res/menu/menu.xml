@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/chooseColor"
+        android:title="Choose Color" />
+	<item android:id="@+id/clear"
+        android:title="Clear" />
+    <item android:id="@+id/animate"
+        android:title="Animate" />
+    <item android:id="@+id/fade"
+        android:title="Fade: Enabled" />
+</menu>

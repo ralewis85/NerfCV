@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="app_name">nerfCV</string>
-    <string name="action_settings">Settings</string>
-    <string name="hello_world">Hello world!</string>
-
+    <string name="app_name">Learning Android</string>
+    <string name="Draw">Draw</string>
+    <string name="addAlarm">Add Alarm</string>
+    <string name="alarm">Alarm</string>
 </resources>
