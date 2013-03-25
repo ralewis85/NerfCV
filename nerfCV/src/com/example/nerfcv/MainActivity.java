@@ -52,8 +52,8 @@ public class MainActivity extends Activity {
 		previewHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 
 		// Set up AdMob
-		//adView = new AdView(this, AdSize.BANNER, "a15149145799752");
-		//adView.loadAd(new AdRequest());
+		// adView = new AdView(this, AdSize.BANNER, "a15149145799752");
+		// adView.loadAd(new AdRequest());
 
 		// Add button
 		final Button btnPause = (Button) findViewById(R.id.btnPause);
@@ -183,13 +183,13 @@ public class MainActivity extends Activity {
 	// Function call is done via activity_main.xml onClick function
 	public void takePicture(View view) {
 		if (inPreview) {
-			camera.takePicture(null, null,
-			        new PhotoHandler(getApplicationContext()));
+			camera.takePicture(null, null, new PhotoHandler(
+					getApplicationContext()));
 		}
 	}
-	
+
 	// Resume camera capture by resuming preview
-	//Function call is done via activity_main.xml onClick function
+	// Function call is done via activity_main.xml onClick function
 	public void cameraResume(View view) {
 		camera.startPreview();
 	}
