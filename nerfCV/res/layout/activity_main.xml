@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0099cc"
+    tools:context=".MainActivity" >
+
+    <FrameLayout
+        android:layout_width="480dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:fitsSystemWindows="true" >
+
+        <SurfaceView
+            android:id="@+id/preview"
+            android:layout_width="480dp"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <!-- <com.google.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        ads:adSize="BANNER"
+        ads:adUnitId="a15149145799752"
+        ads:loadAdOnCreate="true"
+        ads:testDevices="TEST_EMULATOR, 12830"
+        android:fitsSystemWindows="true" >
+    </com.google.ads.AdView>-->
+
+    <Button
+        android:id="@+id/btnTakePicture"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:onClick="takePicture"
+        android:text="Take Picture" />
+
+    <Button
+        android:id="@+id/btnResume"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/btnPause"
+        android:onClick="cameraResume"
+        android:text="Resume" />
+
+</RelativeLayout>

@@ -52,8 +52,8 @@ public class MainActivity extends Activity {
 		previewHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 
 		// Set up AdMob
-		adView = new AdView(this, AdSize.BANNER, "a15149145799752");
-		adView.loadAd(new AdRequest());
+		//adView = new AdView(this, AdSize.BANNER, "a15149145799752");
+		//adView.loadAd(new AdRequest());
 
 		// Add button
 		final Button btnPause = (Button) findViewById(R.id.btnPause);
