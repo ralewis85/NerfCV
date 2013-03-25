@@ -179,7 +179,7 @@ public class MainActivity extends Activity {
 		}
 	};
 
-	// Pause the camera by stopping preview
+	//  Pause the camera by stopping preview
 	// Function call is done via activity_main.xml onClick function
 	public void takePicture(View view) {
 		if (inPreview) {
