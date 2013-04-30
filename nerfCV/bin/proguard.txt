@@ -1,0 +1,40 @@
+# view res/layout/spydroid.xml #generated:32
+# view sw600dp\res/layout-sw600dp/spydroid.xml #generated:13
+-keep class android.support.v4.view.PagerTitleStrip { <init>(...); }
+
+# view res/layout/spydroid.xml #generated:16
+# view sw600dp\res/layout-sw600dp/spydroid.xml #generated:2
+-keep class android.support.v4.view.ViewPager { <init>(...); }
+
+# view AndroidManifest.xml #generated:42
+-keep class com.google.ads.AdActivity { <init>(...); }
+
+# view res/layout/spydroid.xml #generated:54
+-keep class com.google.ads.AdView { <init>(...); }
+
+# view AndroidManifest.xml #generated:25
+-keep class net.majorkernelpanic.spydroid.SpydroidApplication { <init>(...); }
+
+# view AndroidManifest.xml #generated:56
+-keep class net.majorkernelpanic.spydroid.api.CustomHttpServer { <init>(...); }
+
+# view AndroidManifest.xml #generated:57
+-keep class net.majorkernelpanic.spydroid.api.CustomRtspServer { <init>(...); }
+
+# view AndroidManifest.xml #generated:51
+-keep class net.majorkernelpanic.spydroid.ui.AboutActivity { <init>(...); }
+
+# view res/layout/tablet.xml #generated:10
+# view sw600dp\res/layout-sw600dp/tablet.xml #generated:10
+-keep class net.majorkernelpanic.spydroid.ui.HandsetFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:46
+-keep class net.majorkernelpanic.spydroid.ui.OptionsActivity { <init>(...); }
+
+# view res/layout/tablet.xml #generated:15
+# view sw600dp\res/layout-sw600dp/tablet.xml #generated:15
+-keep class net.majorkernelpanic.spydroid.ui.PreviewFragment { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class net.majorkernelpanic.spydroid.ui.SpydroidActivity { <init>(...); }
+
